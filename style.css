@@ -1,0 +1,293 @@
+body {
+	font-size: 100%;
+}
+#wrapper {
+
+}
+/*_________NAVIGATION________*/
+div#nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: black;
+	width: 100%;
+	z-index: 3;
+}
+div#navhover {
+	font-family: sans-serif;
+	padding: 12px 0 15px 0;
+	margin: 0 auto;
+	text-align: center;
+	font-weight: normal;
+	color: #F4B184;
+	font-size: 18px;
+	width: 960px;
+	border-bottom-style: dotted;
+	border-width: 1px;
+	border-color: #444444;
+	height: 20px;
+}
+input {
+	margin: 0 5px 0 25px;
+	width: 150px;
+	height: 8px;
+}
+#navhover a {
+	color: #F4B184;
+	font-size: 12px;
+}
+div#navigation {
+	padding: 12px 18px 18px 18px;
+	display: none;
+	height: 300px;
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+div#navleft, div#navcenter {
+	float: left;
+	margin: 0 60px 0 0;
+}
+div#navright {
+	float: right;
+	margin: 0 0 0 0;
+}
+div#navigation div {
+	height: 100%;
+	width: 280px;
+}
+div#navigation h2 {
+	margin: 0 0 6px 0;
+	padding: 0 0 6px 0;
+	color: #F4B184;
+	font-family: sans-serif;
+	font-weight: normal;
+	border-bottom-style: solid;
+	border-width: 2px;
+	font-size: 15px;
+}
+div#navigation a {
+	text-decoration: underline;
+	color: white;
+}
+div#navigation ul {
+	list-style-type: none;
+	padding: 0;	
+	margin: 0 0 12px 0;
+	color: white;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+div#navigation ul li {
+	padding-top: 6px;
+}
+h2#student {
+	border-color: #6E8DBA;
+}
+h2#community {
+	border-color: #889DC5;
+}
+h2#faculty {
+	border-color: #A2B2D2;
+}
+h2#giving {
+	border-color: #BEC8DF;
+}
+h2#partner {
+	border-color: #DCE0ED;
+}
+h2#intladmin {
+	border-color: #ECEDF5;
+}
+/*________________HEADER________________*/
+#header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 180px;
+	background-image:url('img/banner.jpg'); 
+	background-size: 100%; 
+	background-repeat: no-repeat;
+	z-index: 0;
+}
+#banner {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 180px;
+	background-color: gray;
+	/* for IE */filter:alpha(opacity=50);
+	/* CSS3 standard */opacity: .50;
+	z-index: 1;
+}
+#bannerimg, #news {
+	z-index: 2;
+}
+#bannerimg {
+	position: absolute;
+	top: 60px;
+	left: 24px;
+	
+}
+#logo {
+	float: left;
+}
+#logo a:hover {
+	opacity: .8;
+}
+#imark {
+	float: left;
+	margin: 24px 0 0 24px;
+}
+#imark a:hover {
+	opacity: .8;
+}
+#title {
+	color: white;
+	position: absolute;
+	top: 20px;
+	left: 206px;
+}
+#titlehead {
+	font-family: serif;
+	font-size: 48px;
+}
+#titlesub {
+	font-family: sans-serif;
+	font-size: 18px;
+	text-align: center;
+}
+/*________ARTICLES________*/
+.article {
+	position: absolute;
+	bottom: 0;
+	width: 30%;
+	padding: 10px 2% 10px; 2%;
+	color: white;
+	z-index: 2;
+}
+#aleft {
+	background-color: #ED874B;
+}
+#acenter {
+	background-color: #F09B64;
+	left: 33%;
+}
+#aright {
+	background-color: #F4B184;
+	right: 0;
+}
+.article h1 {
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+	letter-spacing: 1px;
+	text-transform: capitalized;
+	font-weight: normal;
+	font-family: sans-serif;
+}
+.article p {
+	font-family: sans-serif;
+	font-size: 12px;
+}
+.article a {
+	color: #333333;
+}
+.news {
+	display: none;
+}
+
+/*________________CONTAINER________________*/
+div#container {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+	top: 180px;
+	z-index: 1;
+}
+
+/*_________BODY________*/
+div#body {
+	position: absolute;
+	top: 0px;
+	z-index: -1;
+	padding: 0 0 100px 0;
+}
+div.left {
+	float: left;
+	width: 47%;
+	margin: 0 3% 0 0;
+}
+div.right {
+	float: right;
+	width: 47%;
+	margin: 0 2% 0 0;
+}
+div.singlecol {
+	width: 600px;
+}
+
+div#container h1 {
+	font-size: 24px;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: #C0C0C0;
+}
+div#container h2 {
+	font-size: 18px;
+	font-weight: bold;
+	font-family: sans-serif;
+	padding: 0 0 0 0;
+	margin: 24px 0 15px 0;
+}
+div#container h3 {
+	font-size: 15px;
+	padding: 0 0 0 0;
+	margin: 0 0 6px 0;
+	font-family: serif;
+	letter-spacing: 1px;
+	font-weight: normal;
+	color: black;
+}
+div#container ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 21px 0;
+	font-size: 12px;
+	font-family: sans-serif;
+}
+div#container ul li {
+	line-height: 21px;
+}
+div#container p {
+	font-size: 12px;
+	font-family: sans-serif;
+	line-height: 15px;
+}
+div#container a {
+	color: #6E8DBA;
+}
+div.spacer {
+	height: 100px;
+}
+/*_________FOOTER________*/
+div#footer {
+	position: fixed;
+	z-index: 3;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	background-color: white;
+	font-family: sans-serif;
+	padding: 10px 0 15px 0;
+	color: gray;
+	font-size: 11px;
+}
+#footer img {
+	margin: 5px 5px 0 0;
+}
